@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --main-color: #fff;
+  --second-color: #2c74b3;
+  --space: 0.9375rem;
+}
+
+.logo {
+  width: 5rem;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.header {
+  position: relative;
+}
+
+.nav-bar {
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+
+/* .nav-banner {
+  width: 100%;
+  min-height: 200px;
+} */
+
+.header {
+  background-image: url("../images/4380.jpg");
+  background-position: 50% 50%;
+  background-size: cover;
+  min-height: 40rem;
+}
+
+.text-color {
+  color: var(--second-color);
+}
+
+.button {
+  color: var(--main-color);
+  background-color: var(--second-color);
+  border-radius: var(--space);
+  -webkit-border-radius: var(--space);
+  -moz-border-radius: var(--space);
+  -ms-border-radius: var(--space);
+  -o-border-radius: var(--space);
+}
+
+.border-color {
+  border: 3px solid var(--second-color);
+  border-radius: var(--space);
+  -webkit-border-radius: var(--space);
+  -moz-border-radius: var(--space);
+  -ms-border-radius: var(--space);
+  -o-border-radius: var(--space);
+}
+
+.bg-color {
+  background-color: var(--second-color);
+}
+
+.banner {
+  min-width: 20rem;
+  text-align: center;
+  padding: var(--space);
+  border: 1px solid var(--main-color);
+  border-radius: var(--space);
+  position: absolute;
+  bottom: calc(var(--space) * 2);
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: var(--space);
+  background-color: var(--main-color);
+  box-shadow: 0px 0px 4px 0px var(--main-color);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  -webkit-border-radius: var(--space);
+  -moz-border-radius: var(--space);
+  -ms-border-radius: var(--space);
+  -o-border-radius: var(--space);
+}
+
+.highlight {
+  color: var(--second-color);
+}
+
+.icon {
+  font-size: calc(var(--space) * 2);
+}
+
+.title {
+  font-size: var(--space);
+}
+
+.icon,
+.title {
+  color: #2c74b3;
+}
+
+/* Start Jobs */
+.job {
+  box-shadow: 0px 4px 4px 0px var(--second-color);
+}
+
+.jobdetials {
+  border: calc(var(--space) / 4) solid var(--second-color);
+  border-radius: var(--space);
+  -webkit-border-radius: var(--space);
+  -moz-border-radius: var(--space);
+  -ms-border-radius: var(--space);
+  -o-border-radius: var(--space);
+}
